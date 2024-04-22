@@ -44,8 +44,8 @@ Once you have familiarised wiht the changes and prepared for changes on your end
 
 1. Provide a test certificate along with (test) EORI for registering in test satellite. In case you do not have a test certificate, you can request one at `our test CA <https://ca7.isharetest.net:8442/ejbca/ra>`_
 2. Make the changes in your code and test them in the test network with other parties or using dummy parties.
-3. Publish your changes and reqest for conformance testing. :ref:`Details<refCTT>`.
+3. Publish your changes and request for conformance testing. :ref:`Details<refCTT>`.
 4. When passed, make sure that you submit the CTT results and PKI certificate for registering your organisation in the production environment by sending a request to support@ishare.eu. 
 
-.. note:: In order to provide continutiy iSHARE Foundation will still register participants on production satellite run by the foundation. If participants wish to register themselves via other satellites they are free to do so.
+.. note:: In order to provide continuity iSHARE Foundation will still register participants on production satellite run by the foundation. If participants wish to register themselves via other satellites they are free to do so.
 
