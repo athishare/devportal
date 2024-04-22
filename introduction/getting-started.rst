@@ -23,7 +23,7 @@ Various requests or responses that follow the iSHARE specifications contain sign
 2. Construct the required JWT payload.
 3. Sign token according to JWS specifications.
 
-.. tip:: Take into account that iSHARE compliant JWT is going be used almost everywhere. Make sure that the code you write could be easily extendeded according to specific JWT payload requirements. 
+.. tip:: Take into account that iSHARE compliant JWT is going be used almost everywhere. Make sure that the code you write could be easily extended according to specific JWT payload requirements. 
 
 Get an OAuth 2.0 Access Token
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
