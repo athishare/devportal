@@ -21,7 +21,7 @@ In terms of APIs from Scheme Owner to Satellite following is the status of their
 * */connect/token* -- no change
 * */capabilities* -- no change
 * */parties* -- updated with new additional information. **Certifications** attribute is renamed to **roles**. For more details :ref:`refer to API spec<refParties>`
-* */party* -- is removed as per the deprication warning. The same functionality is available in /parties endpoint
+* */party* -- is removed as per the deprecation warning. The same functionality is available in /parties endpoint
 * */trusted-list* -- no change
 * */versions* -- no change
 * */dataspaces* -- new endpoint listing all the registered Data Spaces details :ref:`Refer the API spec<refDataspaces>`
@@ -40,7 +40,7 @@ To prepare for migration from old backend to new backend following changes in /p
 Process for migration
 ~~~~~~~~~~~~~~~~~~~~~
 
-Once you have familiarised wiht the changes and prepared for changes on your end, you may want to register your organisation and other organisations in test environment, if not done so already:
+Once you have familiarised with the changes and prepared for changes on your end, you may want to register your organisation and other organisations in test environment, if not done so already:
 
 1. Provide a test certificate along with (test) EORI for registering in test satellite. In case you do not have a test certificate, you can request one at `our test CA <https://ca7.isharetest.net:8442/ejbca/ra>`_
 2. Make the changes in your code and test them in the test network with other parties or using dummy parties.
